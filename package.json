@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf ./dist",
-    "postinstall": "npx jetify && (cd packages/mobile/ios; pod install;)",
+    "postinstall": "npx jetify",
     "mobile:develop": "npm-run-all --parallel mobile:start",
     "mobile:start": "lerna run start --parallel --scope mobile"
   },
