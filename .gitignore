@@ -1,0 +1,30 @@
+# OSX
+#
+.DS_Store
+
+# Linux
+.directory
+
+# node.js
+#
+node_modules/
+**/report
+.happypack/
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+lerna-debug.log
+/.idea
+
+*.iml
+node
+target
+dist
+tags
+
+jest_0/
+
+gmb_assets/
+/mobile
+
+.gradle
